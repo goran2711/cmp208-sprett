@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{ea6027b2-edf0-4ccc-9931-4311729fdb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{52621ba1-7ae6-41fc-a489-9b261542ca05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateMachine">
+      <UniqueIdentifier>{4dfb2f5e-1450-41ce-b8de-5d21674e4644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{0243fc33-bfc2-41fa-b00e-9752bdccb281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{99b5ef0b-df50-496e-9348-dc3f0c80adef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{62250005-0762-40e6-92e2-ea23ff3a1ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateMachine\States">
+      <UniqueIdentifier>{85c7a90b-a614-493d-b6d9-68c4d8f8fed4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Application\DoodleApp.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main_d3d11.cpp" />
+    <ClCompile Include="..\..\src\Game\Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\ContactListener.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Platform.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\primitive_builder.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\State.cpp">
+      <Filter>Game\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI\Button.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI\Menu.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Audio.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Input.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\TextureManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\GameOverState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\GameState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\MenuState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\PausedState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\SplashState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Timer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Powerup.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Powers.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\States\HighscoreState.cpp">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\StateMachine\StateMachine.cpp">
+      <Filter>Game\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI\ProgressBar.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Application\DoodleApp.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\ContactListener.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Platform.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\primitive_builder.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\State.h">
+      <Filter>Game\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI\Button.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI\Menu.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Audio.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\DependencyPack.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Input.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\TextureManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Function.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\SharedPtr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\UniquePtr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\GameOverState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\GameState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\MenuState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\PausedState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\SplashState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Timer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Powerup.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Powers.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\States\HighscoreState.h">
+      <Filter>Game\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Filters.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\StateMachine\StateMachine.h">
+      <Filter>Game\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI\ProgressBar.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
